@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+  
+.items img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+  
+.items:hover img {
+    transform: scale(1.2);
+}
+@media screen and (max-width:800px) {
+    body{
+        background-color: yellow;
+        color: green;
+    }
+    
+}

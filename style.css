@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap');
+
+header{
+    display:flex;
+    height: 8vh;
+    background-color:#2370f4;
+    color: white;
+}
+nav{
+    display: flex;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.logo h1{
+    margin: 5px;
+}
+nav ul{
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    font-weight:bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 30px;
+    width: 442px;
+    border-radius: 4px;
+    margin: 0px 11px 0px 40px;
+    padding: 0px 12px;
+}
+.btn{
+    padding: 5px 5px;
+    background-color: cornsilk;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    width: 62px;
+    height: 29px;
+}
+.container{
+    min-height: calc(100vh - 18vh);
+}
+.slider{
+    margin: 4px auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider img{
+    width: 75vw;
+    height:50vh;
+}
+.card{
+    border: 0.2px solid grey;
+    border-radius: 5px;
+    height: 205px;
+    width: 95vw;
+    margin: 37px auto;
+}
+.items{
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+#item1{
+    width: 10vw;
+}
+#item1 img{
+    height: 124px;
+    width: 149px;
+}
+#item2{
+    width: 10vw;
+}
+#item2 img{
+    height: 124px;
+    width: 149px;
+}
+#item3{
+    width: 10vw;
+}
+#item3 img{
+    height: 124px;
+    width: 149px;
+}
+#item4{
+    width: 10vw;
+}
+#item4 img{
+    height: 124px;
+    width: 149px;
+}
+#item5{
+    width: 10vw;
+}
+#item5 img{
+    height: 124px;
+    width: 149px;
+}
+#item6{
+    width: 10vw;
+}
+#item6 img{
+    height: 124px;
+    width: 149px;
+}
+.b1{
+    width: 107px;
+    background-color: black;
+    color: azure;
+    border: 1px dotted white;
+    border-radius: 500px;
+    font-weight: bold;
+    transform: translateY(-90px);
+    cursor: pointer;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
